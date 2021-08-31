@@ -1,5 +1,7 @@
 # Procedurally-Generated-Music-Visualizer
 
+This project is part of the examination of the course TNM084 - Procedural Images at Linköping University, where a procedurally generated spherical music visualizer has been created.
+
 This code can be run locally through http-server through the following steps:
 
 1. Download this repository and open the command prompt and the download location
