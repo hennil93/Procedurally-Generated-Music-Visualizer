@@ -1,0 +1,33 @@
+
+#overlay {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100vh;
+}
+
+#audioControls{
+	position: absolute;
+	width: 100%;
+	top: 80vh;
+    border-radius: 90px;
+	transform: scale(1.05);
+}
+
+#audioInput{
+	position: absolute;
+	width: 50%;
+	left: 50%;
+	opacity:0;
+}
+
+label{
+	position: absolute;
+	cursor: pointer;
+	color:rgb(255,255,0);
+	top: 88vh;
+	left: 46vw;
+}
+
+#main{
+	height: 10vh;
+}

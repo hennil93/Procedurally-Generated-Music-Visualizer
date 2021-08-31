@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		  <meta charset=utf-8>
+		  <link rel="stylesheet" href="styles.css">
+  		<title>Party Planet</title>
+  	</head>
+  
+	<body style="margin: 0;">
+		<div id="overlay">
+			<script src="https://threejs.org/build/three.js"></script>
+			<script src="noise.js"></script>
+			<script type="module" src="main.js" id="main"></script>
+			<label for="audioInput">Browse File...</label>
+			<input type="file" class="file" id="audioInput" accept="audio/*"/>
+			<div style="width:500px; margin:auto; position:relative">
+				<audio controls id=audioControls> </audio>
+			</div>
+		</div>
+	</body>
+</html>
